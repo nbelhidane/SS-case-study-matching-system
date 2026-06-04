@@ -1,0 +1,28 @@
+# Large vector files
+outputs/*.npy
+outputs/*.pkl
+
+# Raw data (too large + privacy)
+data/resume.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+env/
+.venv/
+*.egg-info/
+
+# System
+.DS_Store
+.env
+
+# Large model cache
+.cache/
+
+FINDINGS.md
+PLAN.md
+SUMMARY.md
+
+.claude/
